@@ -239,11 +239,19 @@ footer {
   }
   main {
     padding: 1rem 3rem;
+    width: 100%;
+    height: fit-content;
   }
 
   main .content {
     flex-direction: column;
     gap: 2rem;
+  }
+  main .content .content-image img {
+    padding-top: 90px;
+    margin: auto;
+    min-width: 200px;
+    width: 300px;
   }
 
   main .content .content-description .title {
